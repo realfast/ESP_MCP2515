@@ -1,0 +1,19 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.flashType": "UART",
+  "idf.flashBaudRate": "1500000",
+  "idf.monitorBaudRate": "115200",
+  "idf.port": "/dev/cu.usbmodem3101",
+  "cmake.configureOnOpen": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+    //☝🏼 Select the MS extension as defaultFormatter
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "files.associations": {
+    "esp_can.h": "c"
+  }
+}
